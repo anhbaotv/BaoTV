@@ -1,9 +1,9 @@
-<activity ...>
-    <intent-filter android:autoVerify="true">
-        <action android:name="android.intent.action.VIEW" />
-        <category android:name="android.intent.category.DEFAULT" />
-        <category android:name="android.intent.category.BROWSABLE" />
-        
-        <data android:scheme="https" android:host="anhbaotv.github.io" />
-    </intent-filter>
-</activity>
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.anhbaotv.app",
+    "sha256_cert_fingerprints":
+    ["A0:2B:CE:99:F2:45:D2:33:8D:F0:51:08:41:33:16:E2:EA:0D:1C:AA:5B:3C:A8:9C:E6:D7:C9:4B:24:BC:7A:75"]
+  }
+}]
